@@ -13,7 +13,6 @@ import os
 
 
 
-
 #Main function is here
 def CalcWarpRemap(pointFile, remapfile, projx, projy, imagex, imagey, yexpansion, upsample):
     #typical values projx=3840(2560), projy=2160(1080), imagex=1024, imagey768, yexpansion=0.86, upsample=50

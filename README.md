@@ -25,6 +25,7 @@
     - **Image X, Y:** dimensions of the image(s) to be warped (e.g., 1024, 768)
     - **Y Expansion:** interpolation factor used in determining equal segment lengths for ellipse arcs (i.e., expected size of head_pixel/toe_pixel due to angled screen)
     - **Up Sample:** e.g., upsample * imageX, 50 * 1024 = 51200 points in the head and toe ellipses
+- Note: this generates a few useful plots in a pop-up window; you can close it to proceed or just comment this part out in the code.
 
 
 ### 2. Map input image to the screen shape
