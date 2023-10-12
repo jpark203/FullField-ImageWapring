@@ -24,7 +24,7 @@
     - **Projector X, Y:** dimensions of the projection device (the same settings used to establish the input points)
     - **Image X, Y:** dimensions of the image(s) to be warped (e.g., 1024, 768)
     - **Y Expansion:** interpolation factor used in determining equal segment lengths for ellipse arcs (i.e., expected size of head_pixel/toe_pixel due to angled screen)
-    - **Up Sample:** e.g., upsample*imageX, 50*1024 = 51200 points in the head and toe ellipses
+    - **Up Sample:** e.g., upsample * imageX, 50 * 1024 = 51200 points in the head and toe ellipses
 
 
 ### 2. Map input image to the screen shape
